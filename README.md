@@ -1,4 +1,4 @@
-# Vendor Recommender
+# Vendor Recommender & event planning
 
 ## Project Description
 A simple AI-like system that recommends event vendors and provides planning steps based on user input such as event type, location, and budget. This tool helps users efficiently plan events by suggesting the best vendor combinations within their budget.
@@ -24,22 +24,58 @@ Vendor data is stored in `mock_data.json` and includes:
 - Rating (out of 5)
 - Location
 
-## How It Works
-1. **User Input**: The script prompts for event type, location, and budget.
-2. **Vendor Filtering**: Only vendors in the selected location are considered.
-3. **Recommendation Logic**: The script selects the best combination of top-rated vendors (one per service) whose total price fits within the budget. If no full set fits, it suggests the best possible subset.
-4. **Planning Steps**: Based on the event type, the script suggests a basic order for booking services (e.g., venue, decoration, catering, photography).
-
-## How to Run the Script
-1. Make sure you have Python 3 installed.
-2. Place `vendor_recommender.py` and `mock_data.json` in the same directory.
-3. Open a terminal and navigate to the project directory.
-4. Run the script:
-   ```bash
-   python vendor_recommender.py
-   ```
-5. Follow the prompts to enter event details.
+## Features
+- **Streamlit Web App**: Clean, modern UI with cards, images, and hover effects.
+- **City & Budget Selection**: Choose from real cities and price ranges.
+- **All Vendors by Service**: See all available vendors for each service in your city.
+- **Smart Recommendations**: Get the best vendor combination under your budget, or the closest possible set if over budget.
+- **Interactive Planning Steps**: Book only the steps you want (venue, decoration, catering, etc.), with icons and booking history.
+- **Vendor Selection**: For each bookable step, pick your preferred vendor from a dropdown.
+- **Confetti Animation**: Celebrate every booking with confetti!
+- **Booking History**: See all your booked steps and vendors in one place.
+- **Robust State Handling**: All selections and bookings persist during your session.
 
 ---
 
-Feel free to modify `mock_data.json` to add more vendors or services! 
+## Setup & Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/kundanareddy2830/-Vendor-Recommendation-Event-Planning-.git
+   cd -Vendor-Recommendation-Event-Planning-
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install streamlit pandas
+   ```
+
+3. **Run the Streamlit app**
+   ```bash
+   python -m streamlit run vendor/streamlit_app.py
+   ```
+
+4. **Open the app**
+   - Visit the local URL shown in your terminal (usually http://localhost:8501)
+
+---
+
+## How It Works
+1. **Select Event Details**: Use the sidebar to pick event type, city, and budget.
+2. **Show Recommendations**: Click the "Show Recommendations" button.
+3. **Browse Vendors**: See all available vendors by service, with images.
+4. **Book Planning Steps**:
+   - Choose which steps you want to book (e.g., venue, catering).
+   - For each, click "Book", select a vendor (if applicable), and confirm.
+   - Enjoy confetti and see your booking history update live!
+
+---
+
+## Data
+- Vendor data is in `vendor/mock_data.json`.
+- You can add more vendors, cities, or services by editing this file.
+
+---
+
+## License
+This project is for educational and demonstration purposes. 
