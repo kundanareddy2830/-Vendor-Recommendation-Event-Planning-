@@ -33,5 +33,215 @@
     "price": 35000,
     "rating": 4.3,
     "location": "Bangalore"
+  },
+  {
+    "name": "BangaloreVenue",
+    "service": "Venue",
+    "price": 55000,
+    "rating": 4.4,
+    "location": "Bangalore"
+  },
+  {
+    "name": "BangaloreCaterers",
+    "service": "Catering",
+    "price": 45000,
+    "rating": 4.1,
+    "location": "Bangalore"
+  },
+  {
+    "name": "BangaloreSnaps",
+    "service": "Photography",
+    "price": 32000,
+    "rating": 4.5,
+    "location": "Bangalore"
+  },
+  {
+    "name": "VijayVenue",
+    "service": "Venue",
+    "price": 40000,
+    "rating": 4.2,
+    "location": "Vijayawada"
+  },
+  {
+    "name": "VijayDecor",
+    "service": "Decoration",
+    "price": 25000,
+    "rating": 4.0,
+    "location": "Vijayawada"
+  },
+  {
+    "name": "VijayCaterers",
+    "service": "Catering",
+    "price": 30000,
+    "rating": 4.1,
+    "location": "Vijayawada"
+  },
+  {
+    "name": "VijaySnaps",
+    "service": "Photography",
+    "price": 20000,
+    "rating": 4.3,
+    "location": "Vijayawada"
+  },
+  {
+    "name": "DelhiVenue",
+    "service": "Venue",
+    "price": 70000,
+    "rating": 4.7,
+    "location": "Delhi"
+  },
+  {
+    "name": "DelhiDecor",
+    "service": "Decoration",
+    "price": 50000,
+    "rating": 4.6,
+    "location": "Delhi"
+  },
+  {
+    "name": "DelhiCaterers",
+    "service": "Catering",
+    "price": 60000,
+    "rating": 4.5,
+    "location": "Delhi"
+  },
+  {
+    "name": "DelhiSnaps",
+    "service": "Photography",
+    "price": 35000,
+    "rating": 4.8,
+    "location": "Delhi"
+  },
+  {
+    "name": "MumbaiVenue",
+    "service": "Venue",
+    "price": 80000,
+    "rating": 4.8,
+    "location": "Mumbai"
+  },
+  {
+    "name": "MumbaiDecor",
+    "service": "Decoration",
+    "price": 60000,
+    "rating": 4.7,
+    "location": "Mumbai"
+  },
+  {
+    "name": "MumbaiCaterers",
+    "service": "Catering",
+    "price": 70000,
+    "rating": 4.6,
+    "location": "Mumbai"
+  },
+  {
+    "name": "MumbaiSnaps",
+    "service": "Photography",
+    "price": 40000,
+    "rating": 4.9,
+    "location": "Mumbai"
+  },
+  {
+    "name": "ChennaiVenue",
+    "service": "Venue",
+    "price": 50000,
+    "rating": 4.3,
+    "location": "Chennai"
+  },
+  {
+    "name": "ChennaiDecor",
+    "service": "Decoration",
+    "price": 35000,
+    "rating": 4.2,
+    "location": "Chennai"
+  },
+  {
+    "name": "ChennaiCaterers",
+    "service": "Catering",
+    "price": 40000,
+    "rating": 4.4,
+    "location": "Chennai"
+  },
+  {
+    "name": "ChennaiSnaps",
+    "service": "Photography",
+    "price": 25000,
+    "rating": 4.5,
+    "location": "Chennai"
+  },
+  {
+    "name": "HyderabadCakes",
+    "service": "Cake",
+    "price": 10000,
+    "rating": 4.6,
+    "location": "Hyderabad"
+  },
+  {
+    "name": "BangaloreCakes",
+    "service": "Cake",
+    "price": 12000,
+    "rating": 4.5,
+    "location": "Bangalore"
+  },
+  {
+    "name": "VijayCakes",
+    "service": "Cake",
+    "price": 9000,
+    "rating": 4.2,
+    "location": "Vijayawada"
+  },
+  {
+    "name": "DelhiCakes",
+    "service": "Cake",
+    "price": 15000,
+    "rating": 4.7,
+    "location": "Delhi"
+  },
+  {
+    "name": "MumbaiCakes",
+    "service": "Cake",
+    "price": 18000,
+    "rating": 4.8,
+    "location": "Mumbai"
+  },
+  {
+    "name": "ChennaiCakes",
+    "service": "Cake",
+    "price": 11000,
+    "rating": 4.3,
+    "location": "Chennai"
+  },
+  {
+    "name": "DelhiAV",
+    "service": "AV Equipment",
+    "price": 20000,
+    "rating": 4.4,
+    "location": "Delhi"
+  },
+  {
+    "name": "MumbaiAV",
+    "service": "AV Equipment",
+    "price": 25000,
+    "rating": 4.5,
+    "location": "Mumbai"
+  },
+  {
+    "name": "ChennaiAV",
+    "service": "AV Equipment",
+    "price": 15000,
+    "rating": 4.2,
+    "location": "Chennai"
+  },
+  {
+    "name": "BangaloreAV",
+    "service": "AV Equipment",
+    "price": 18000,
+    "rating": 4.3,
+    "location": "Bangalore"
+  },
+  {
+    "name": "VijayAV",
+    "service": "AV Equipment",
+    "price": 12000,
+    "rating": 4.1,
+    "location": "Vijayawada"
   }
 ] 
