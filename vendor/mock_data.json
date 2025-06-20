@@ -1,0 +1,37 @@
+[
+  {
+    "name": "BlissDecor",
+    "service": "Decoration",
+    "price": 40000,
+    "rating": 4.5,
+    "location": "Hyderabad"
+  },
+  {
+    "name": "SnapMoments",
+    "service": "Photography",
+    "price": 30000,
+    "rating": 4.7,
+    "location": "Hyderabad"
+  },
+  {
+    "name": "TastyBites",
+    "service": "Catering",
+    "price": 50000,
+    "rating": 4.2,
+    "location": "Hyderabad"
+  },
+  {
+    "name": "Eventify",
+    "service": "Venue",
+    "price": 60000,
+    "rating": 4.6,
+    "location": "Hyderabad"
+  },
+  {
+    "name": "GreenGlow",
+    "service": "Decoration",
+    "price": 35000,
+    "rating": 4.3,
+    "location": "Bangalore"
+  }
+] 
